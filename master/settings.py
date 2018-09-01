@@ -25,7 +25,9 @@ SECRET_KEY = 'xcv#!p2=q^!l!$_7u)19#yo9eull_@it4y_5n3#@%f9!30$u09'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['http://theteachersday.herokuapp.com/',
+                  '127.0.0.1'
+                ]
 
 
 # Application definition
