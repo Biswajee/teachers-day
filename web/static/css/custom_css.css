@@ -3,6 +3,14 @@ body {
   background-size: auto;
 }
 
+::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
+}
+
+
 .navbar-fixed-top {
   position: fixed;
   i vtop: 0;
